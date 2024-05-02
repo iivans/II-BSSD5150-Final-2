@@ -1,0 +1,529 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16169 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Isaac/II-BSSD5150-Midterm
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+59697
+Successfully changed project path to: C:/Users/Isaac/II-BSSD5150-Midterm
+C:/Users/Isaac/II-BSSD5150-Midterm
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16708] Host "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 3124629380 [EditorId] 3124629380 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-UFD6JTEV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16708] Host "[IP] 192.168.0.17 [Port] 0 [Flags] 2 [Guid] 3124629380 [EditorId] 3124629380 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-UFD6JTEV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 13.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1 (4fc78088f837)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Isaac/II-BSSD5150-Midterm/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f14)
+    Vendor:   NVIDIA
+    VRAM:     8006 MB
+    Driver:   31.0.15.5186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015772 seconds.
+- Loaded All Assemblies, in  0.476 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 267 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.670 seconds
+Domain Reload Profiling: 1144ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
+		LoadAssemblies (138ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (181ms)
+				TypeCache.ScanAssembly (165ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (671ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (599ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (391ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.747 seconds
+Refreshing native plugins compatible for Editor in 5.09 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.743 seconds
+Domain Reload Profiling: 1487ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (473ms)
+		LoadAssemblies (352ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (188ms)
+				TypeCache.ScanAssembly (168ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (744ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (550ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (373ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 6.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4043 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (244.4 KB). Loaded Objects now: 4503.
+Memory consumption went from 154.5 MB to 154.3 MB.
+Total: 4.639500 ms (FindLiveObjects: 0.384100 ms CreateObjectMapping: 0.312200 ms MarkObjects: 3.719700 ms  DeleteObjects: 0.221900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1679007.938070 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30796653c4dfc1f2480bca9d8b60487c') in 0.008108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.921270 seconds.
+  path: Assets/2D Pixel Item Pack
+  artifactKey: Guid(5f666dbaed844364da080053479e14c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack using Guid(5f666dbaed844364da080053479e14c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d314e9de17593ec3ee1c7ecc6d16542') in 0.001584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.761335 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline
+  artifactKey: Guid(656f9e31cc105bd4db1ada03b62147ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline using Guid(656f9e31cc105bd4db1ada03b62147ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83591e1fd94886d196de76896449d96') in 0.000567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.774434 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_BarrelBlue_00.png
+  artifactKey: Guid(6cebba6dd0d62794cbf3e2cbc5cbf1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_BarrelBlue_00.png using Guid(6cebba6dd0d62794cbf3e2cbc5cbf1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e39b3dd108b8cbbe8a43e079ae85974') in 0.144844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartPurple_00.png
+  artifactKey: Guid(bff3cf9bf9388d345b4830a9b252c061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartPurple_00.png using Guid(bff3cf9bf9388d345b4830a9b252c061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448ea38e9a653c6bad9339b156019719') in 0.024658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarGold_00.png
+  artifactKey: Guid(8f1eb9295cb78b44bbdfbfcc04681612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarGold_00.png using Guid(8f1eb9295cb78b44bbdfbfcc04681612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d6b54290a11744e3e481f90748040c') in 0.034102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionBlue_01.png
+  artifactKey: Guid(f56f812c8c2e0514b8a1113b595afb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionBlue_01.png using Guid(f56f812c8c2e0514b8a1113b595afb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfdf6958a213075ca62e53c74ef40d1') in 0.029638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinRed_00.png
+  artifactKey: Guid(4ca860b8f3d16674984a376c1401a32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinRed_00.png using Guid(4ca860b8f3d16674984a376c1401a32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd1834e6bc71aedd148a85831dae49e') in 0.022507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartRed_00.png
+  artifactKey: Guid(f02d96cdbea331f4aa8fc0b1c3260fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartRed_00.png using Guid(f02d96cdbea331f4aa8fc0b1c3260fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750dd641f03ad535cd32860db3c6f7d9') in 0.023008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarRed_01.png
+  artifactKey: Guid(3bb4f6230f817c24485cea9e9511dae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarRed_01.png using Guid(3bb4f6230f817c24485cea9e9511dae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8deb2461a0a17773ef1fd7188172942b') in 0.028983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_00.png
+  artifactKey: Guid(c8bdd335029a8294689a5fb138a9cfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_00.png using Guid(c8bdd335029a8294689a5fb138a9cfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f42684c01210786d5810c8ed0410e29') in 0.025190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_ChestGold_00.png
+  artifactKey: Guid(b91604b41cc7bb74db18d32655bf9212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_ChestGold_00.png using Guid(b91604b41cc7bb74db18d32655bf9212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64387d66ed45f854f75de43fae59fed2') in 0.025455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarGold_01.png
+  artifactKey: Guid(cbc9d6854e2a97c47848a562f3108613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarGold_01.png using Guid(cbc9d6854e2a97c47848a562f3108613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc46e1001a2f04cc2b63a4a7153f467') in 0.023504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_01.png
+  artifactKey: Guid(f041a6e4a68d2ac43a7f7b81cbc324a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_01.png using Guid(f041a6e4a68d2ac43a7f7b81cbc324a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427948ae29947258e9700a0f6325dca0') in 0.022309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarPurple_00.png
+  artifactKey: Guid(164454aea5868df45a0cc455f18b5b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarPurple_00.png using Guid(164454aea5868df45a0cc455f18b5b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45143cd211edc88cc4b49a41465f69b7') in 0.021797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartGold_00.png
+  artifactKey: Guid(e54c6acda6f477d4e98b6e6068d68226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartGold_00.png using Guid(e54c6acda6f477d4e98b6e6068d68226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff59bc407097843fa7b1fc4c219f97a5') in 0.021614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_00.png
+  artifactKey: Guid(c942500109f791240adb75c331ecbe90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_00.png using Guid(c942500109f791240adb75c331ecbe90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7c958ca92e8d4b2d046310c5f29b37') in 0.022214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_01.png
+  artifactKey: Guid(b59a71db9878ce648a8338095027dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_01.png using Guid(b59a71db9878ce648a8338095027dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c7563b15dd9409d261151bd291cd5c') in 0.023631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_02.png
+  artifactKey: Guid(a9d02d79a9caaca4ab31458e413042ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_02.png using Guid(a9d02d79a9caaca4ab31458e413042ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c03500a55cbe4eb5e9f276c2ce8d73') in 0.027908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinPurple_00.png
+  artifactKey: Guid(06121c73941905f4c96a07e46ccef8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinPurple_00.png using Guid(06121c73941905f4c96a07e46ccef8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef68667fa4eb94631594bf6e5ca6393') in 0.019778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarRed_00.png
+  artifactKey: Guid(a2905542269b85347b02c9680e021f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarRed_00.png using Guid(a2905542269b85347b02c9680e021f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b965ced69c89ce4507260a2c67612c87') in 0.023082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_BarrelRed_00.png
+  artifactKey: Guid(87a348abb5bb3b04a994fbe576c7382e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_BarrelRed_00.png using Guid(87a348abb5bb3b04a994fbe576c7382e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113f9dff96baec50a93fc28ef9a900dd') in 0.025417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarGreen_00.png
+  artifactKey: Guid(a1fbccd8f2527154da31359cf7bf87be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarGreen_00.png using Guid(a1fbccd8f2527154da31359cf7bf87be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd08cdeec2ffe07a2f3a057611fc94d2') in 0.024073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionPurple_02.png
+  artifactKey: Guid(f6c8338ac999bc94e9a7d79c7262d443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionPurple_02.png using Guid(f6c8338ac999bc94e9a7d79c7262d443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ffb06f7543995928bb6b35b8624ef9') in 0.025532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionPurple_01.png
+  artifactKey: Guid(466754cf24a0dcf46921f74c450a2cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionPurple_01.png using Guid(466754cf24a0dcf46921f74c450a2cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9615cea18bd6d8a3f7b6aba6e83da8da') in 0.021834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 14.128206 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline
+  artifactKey: Guid(d3ca89ea1d6354a4eafecf247205e38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline using Guid(d3ca89ea1d6354a4eafecf247205e38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1918ae2f521b89690cf7c1a1604052c') in 0.000709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.054133 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_BarrelBlue_00.png
+  artifactKey: Guid(f723f733b9289b5489cab1fac4d6a1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_BarrelBlue_00.png using Guid(f723f733b9289b5489cab1fac4d6a1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe06d31c3200f31d9b738d306b97cc4') in 0.026080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGreen_00.png
+  artifactKey: Guid(94d06af37f640cb46abbec58f544e4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGreen_00.png using Guid(94d06af37f640cb46abbec58f544e4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038f06f9b15fa4301c6d97096463366b') in 0.028007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartPurple_00.png
+  artifactKey: Guid(a826d8f2773ce71498b79a16bd520476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartPurple_00.png using Guid(a826d8f2773ce71498b79a16bd520476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5dfeb9320e9596621ca03a653a2bbe6') in 0.029821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartBlue_00.png
+  artifactKey: Guid(099fceee06c7bcc479b668b45e639465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartBlue_00.png using Guid(099fceee06c7bcc479b668b45e639465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6397a9094f9b200479df405f2ff6d1e') in 0.029539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarPurple_00.png
+  artifactKey: Guid(705d80d2f8e09c14ba1867fc40ca752b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarPurple_00.png using Guid(705d80d2f8e09c14ba1867fc40ca752b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0afcafaa37b89c5e284579504328fd') in 0.027419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarGold_01.png
+  artifactKey: Guid(2d9f2cf1e49d6e441ae1a83d842e2722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarGold_01.png using Guid(2d9f2cf1e49d6e441ae1a83d842e2722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8b6e1e7d0018c175b49d6227507fa8') in 0.029757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionBlue_00.png
+  artifactKey: Guid(2b3f72a8c25c0db42831048113b1ac60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionBlue_00.png using Guid(2b3f72a8c25c0db42831048113b1ac60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb5dde99e83330e6087cd5e30bce0ac') in 0.026779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionRed_01.png
+  artifactKey: Guid(384681ec1344ebe478ee0adbf07f605a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionRed_01.png using Guid(384681ec1344ebe478ee0adbf07f605a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484e606014ffe6fdc126ddd86addb365') in 0.022033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_BarrelRed_00.png
+  artifactKey: Guid(10879f0c505e7f844abfa0ebcd5d606b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_BarrelRed_00.png using Guid(10879f0c505e7f844abfa0ebcd5d606b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f59af2a3cc49cc969375e7bdc2383c') in 0.023305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_ChestGreen_00.png
+  artifactKey: Guid(140eecf15b8d8724d974cfbdc86c5629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_ChestGreen_00.png using Guid(140eecf15b8d8724d974cfbdc86c5629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8772a0bab83aa5b8978957952977dec4') in 0.022219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarPurple_01.png
+  artifactKey: Guid(1212ba15464c71842a6f2058818990e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarPurple_01.png using Guid(1212ba15464c71842a6f2058818990e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a331ae20194f99be100d74288e27bd69') in 0.021206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_BarrelPurple_00.png
+  artifactKey: Guid(999538d78e7c5a44c9b6687b1f4300d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_BarrelPurple_00.png using Guid(999538d78e7c5a44c9b6687b1f4300d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab91bdafcb6a741539db8e387cf1a503') in 0.023799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartRed_00.png
+  artifactKey: Guid(23565949412127044ace543e892409b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartRed_00.png using Guid(23565949412127044ace543e892409b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53c8a84f03757e4b4fa0bbd7001180e') in 0.020166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionRed_02.png
+  artifactKey: Guid(1faab0627e69c1747aba494c3637e1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionRed_02.png using Guid(1faab0627e69c1747aba494c3637e1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb08b3a2b2af058bcde2c87def57f41') in 0.020687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarBlue_01.png
+  artifactKey: Guid(a1ec6f9c7dfcba144b65d9ae74c1b33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarBlue_01.png using Guid(a1ec6f9c7dfcba144b65d9ae74c1b33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfa55e81b07df555cae6cf82046042b') in 0.023365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarRed_01.png
+  artifactKey: Guid(e57e38e969e13584f8f8a1125bbc0df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarRed_01.png using Guid(e57e38e969e13584f8f8a1125bbc0df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2174f6f29ed9c706b8c5b74608f223e') in 0.025376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
